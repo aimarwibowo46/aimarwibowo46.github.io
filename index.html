@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="setInterval(changeText, 500), setInterval(changeColor, 500)">
+
+	<div class="header">
+		<ul>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#home">Home</a></li>
+		</ul>
+
+		<div class="clear"></div>
+	</div>
+
+	<div class="home" id="home">
+		<div class="home-content">
+			<div class="text-1">Hello, my name is</div>
+			<div class="text-2">Aimar Wibowo</div>
+			<div class="text-3">I am a <span id="my-job">Youtuber</span></div>
+		</div>
+	</div>
+
+	<div class="about" id=about>
+		<h1 class="about-me">About Me</h1>
+		<hr>
+		<div class="about-text">I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems.</div>
+	</div>
+
+	<div class="skills" id="skills">
+		<h1 class="my-skills">My Skills</h1>
+		<hr>
+
+		<div class="skills-gallery">
+			<div class="thumbnail">	
+				<img src="img/c.png">
+			</div>
+
+			<div class="thumbnail">	
+				<img src="img/cpp.png">
+			</div>
+
+			<div class="thumbnail">	
+				<img src="img/java.png">
+			</div>
+
+			<div class="thumbnail">	
+				<img src="img/php.jpg">
+			</div>
+
+			<div class="thumbnail">	
+				<img src="img/python.png">
+			</div>
+		</div>
+	</div>
+
+	<div class="contact" id="contact">
+		<h1 class="my-contact">My Contact</h1>
+		<hr>
+
+		<div class="contact-container">
+			<div class="left-contact">
+				<div class="my-home">
+					<img src="img/home.png">
+					<h3>Tegal, Indonesia</h3>
+					<div class="clear"></div>
+				</div>
+
+				<div class="my-telp">
+					<img src="img/telp.png">
+					<h3>081227122876</h3>
+					<div class="clear"></div>
+				</div>
+
+				<div class="my-mail">
+					<img src="img/mail.png">
+					<h3>aimarwibowo46@gmail.com</h3>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<div class="right-contact">
+				<form action="" method="post">
+					<div class="nama">	
+						<input type="text" placeholder="Name">
+					</div>
+					<div class="email">	
+						<input type="email" placeholder="Email">
+					</div>
+					<div class="message">
+						<textarea>Type Your Message Here</textarea>
+					</div>
+					<div class="submit">
+						<input id="submit" onclick="mySubmit()" type="submit" value="Send Message">
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
